@@ -49,16 +49,16 @@ Buatlah controller untuk mengatur fitur CRUD artikel.
 * Pada project ini kamu diminta untuk memasangkan template dari SB-Admin-2 https://startbootstrap.com/themes/sb-admin-2/. Kami sudah memasangkan asset-asset yang sudah didownload dari halaman SB-Admin-2 di folder public. Tugas kamu adalah memperbaiki template master blade yang terdapat di folder resources/views/layouts/master.blade.php dan hubungkan dengan asset-asset yang diperlukan.  (5 poin)
 * Web memiliki route sebagai berikut: (10 poin)
 
-| url                         | method | keterangan      |
-|----------                   | -------- | -------------- |
-| ```'/'```                   |```GET```| menampilkan gambar PNG/JPG/JPEG desain ERD yang sudah dibuat di soal no. 1  |
-| ```'/artikel' ```        | ```GET``` | menampilkan tabel berisi data artikel-artikel |
-| ```'/artikel/create'```  | ```GET``` | menampilkan form untuk membuat artikel baru  |
-| ```'/artikel'``` | ```POST``` | menyimpan artikel baru 
-| ```'/artikel/{id}'``` | ```GET``` | menampilkan halaman detil (show) untuk artikel dengan id tertentu
-| ```'/artikel/{id}/edit'``` | ```GET``` | menampilkan halaman form edit untuk artikel dengan id tertentu
-| ```'/artikel/{id}'``` | ```PUT``` | menyimpan data dari form edit 
-| ```'/artikel/{id}'``` | ```DELETE``` | menghapus data dengan id tertentu
+| url                        | method      | keterangan      |
+|----------                  | --------    | -------------- |
+| ```'/'```                  |```GET```    | menampilkan gambar PNG/JPG/JPEG desain ERD yang sudah dibuat di soal no. 1  |
+| ```'/artikel' ```          | ```GET```   | menampilkan tabel berisi data artikel-artikel |
+| ```'/artikel/create'```    | ```GET```   | menampilkan form untuk membuat artikel baru  |
+| ```'/artikel'```           | ```POST```  | menyimpan artikel baru 
+| ```'/artikel/{id}'```      | ```GET```   | menampilkan halaman detil (show) untuk artikel dengan id tertentu
+| ```'/artikel/{id}/edit'``` | ```GET```   | menampilkan halaman form edit untuk artikel dengan id tertentu
+| ```'/artikel/{id}'```      | ```PUT```   | menyimpan data dari form edit 
+| ```'/artikel/{id}'```      | ```DELETE```| menghapus data dengan id tertentu
 
 - pasangkanlah script berikut ini ke HANYA ke halaman blade untuk menampilkan data pada tabel artikel (pada url ```'/artikel'```). (10 poin)
 
